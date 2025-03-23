@@ -1,0 +1,86 @@
+/* Couleurs */
+:root {
+    --noir: #000000;
+    --bleu: #0000FF;
+    --rouge: #FF0000;
+}
+
+/* Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--noir);
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: var(--bleu);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: var(--rouge);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+#services {
+    padding: 2rem;
+    text-align: center;
+}
+
+.service {
+    background-color: white;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    max-width: 600px;
+}
+
+#contact {
+    background-color: var(--bleu);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--noir);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
